@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ExempluRestController {
 
-    @GetMapping("/test")
+    @GetMapping("/exemplu")
     public String exemplu() {
         return "Acesta este un exemplu";
     }
